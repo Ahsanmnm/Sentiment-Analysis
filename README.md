@@ -27,3 +27,55 @@ This project implements a sentiment analysis model exposed as a FastAPI-based AP
 ```bash
 git clone <repository-url>
 cd Sentiment-Analysis-API
+
+### 2. Install Dependencies
+
+Before running the Sentiment Analysis API, make sure to install the required Python packages. You can do this by running the following command:
+
+```bash
+pip install -r requirements.txt
+
+### 3. Run the API Server
+
+Once the dependencies are installed, you can start the Sentiment Analysis API server. Use the following command to run the server:
+
+```bash
+uvicorn main:app --host 127.0.0.1 --port 8000 --reload
+
+
+## API Endpoints
+
+The Sentiment Analysis API provides the following endpoints:
+
+### 1. Home (GET)
+
+- **Endpoint:** `/`
+- **Description:** Get information about the Sentiment Analysis API.
+
+**Example:**
+
+```bash
+curl http://localhost:8000/
+
+
+### 2. Predict (POST)
+
+- **Endpoint:** `/predict`
+- **Description:** Perform sentiment analysis on text data.
+
+**Example Request:**
+
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a positive sentence."}' http://localhost:8000/predict
+
+
+## Testing
+
+The Sentiment Analysis API comes with a suite of tests to ensure its proper functionality. Before running the tests, make sure the API server is running.
+
+### Running Tests
+
+To run the tests, execute the following command in your terminal:
+
+```bash
+pytest test/test_main.py
