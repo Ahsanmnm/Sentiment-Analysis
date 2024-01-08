@@ -69,7 +69,7 @@ curl http://localhost:8000/
 curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a positive sentence."}' http://localhost:8000/predict
 ```
 
-<img src="images/Screenshot_3.png" alt="Alt Text" width="600" height="400">
+<img src="images/Screenshot_3.png" alt="Alt Text" width="800" height="400">
 
 
 
