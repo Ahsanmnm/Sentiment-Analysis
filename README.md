@@ -25,7 +25,7 @@ This project implements a sentiment analysis model exposed as a FastAPI-based AP
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone <[repository-url](https://github.com/Ahsanmnm/Sentiment-Analysis.git)>
 cd Sentiment-Analysis-API
 ```
 ### 2. Install Dependencies
@@ -69,7 +69,7 @@ curl http://localhost:8000/
 curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a positive sentence."}' http://localhost:8000/predict
 ```
 
-<img src="images/Screenshot_3.png" alt="Alt Text" width="1200" height="500">
+<img src="images/Screenshot_3.png" alt="Alt Text" width="600" height="400">
 
 
 
@@ -86,4 +86,4 @@ pytest test/test_main.py
 
 ```
 
-![Alt Text](images/Screenshot_15.png)
+<img src="images/Screenshot_15.png" alt="Alt Text">
