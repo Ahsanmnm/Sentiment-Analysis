@@ -68,9 +68,10 @@ curl http://localhost:8000/
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a positive sentence."}' http://localhost:8000/predict
 ```
-![Alt Text](file:///D:/ML_prijects/SentimentAnalysisModelmaster/Sentiment_Analysis/Sentiment-Analysis/images/Screenshot_2.png){: width="300" height="200"}
 
-![Alt Text](file:///D:/ML_prijects/SentimentAnalysisModelmaster/Sentiment_Analysis/Sentiment-Analysis/images/Screenshot_3.png){: width="300" height="200"}
+<img src="images/Screenshot_3.png" alt="Alt Text" width="1200" height="500">
+
+
 
 ## Testing
 
@@ -85,4 +86,4 @@ pytest test/test_main.py
 
 ```
 
-![Alt Text](file:///D:/ML_prijects/SentimentAnalysisModelmaster/Sentiment_Analysis/Sentiment-Analysis/images/Screenshot_15.png){: width="300" height="200"}
+![Alt Text](images/Screenshot_15.png)
