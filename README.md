@@ -68,7 +68,7 @@ curl http://localhost:8000/
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a positive sentence."}' http://localhost:8000/predict
 ```
-![OpenAI Logo](images\Screenshot_2.png)
+![OpenAI Logo](Sentiment-Analysis\images\Screenshot_2.png)
 
 ## Testing
 
