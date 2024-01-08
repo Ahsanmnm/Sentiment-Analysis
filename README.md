@@ -1,9 +1,10 @@
 # Sentiment Analysis API
 
 This project is a sentiment analysis API that categorizes text data into positive, negative, or neutral sentiments. It is built using [FastAPI](https://fastapi.tiangolo.com/).
+
 ## Video Demonstration
 
-[![Watch the video](images/ezgif-2-20ddcd0875.mp4)
+[![Watch the video](images/Demo_vedio.mp4)
 
 ## Table of Contents
 
@@ -16,8 +17,7 @@ This project is a sentiment analysis API that categorizes text data into positiv
   - [1. Home (GET)](#1-home-get)
   - [2. Predict (POST)](#2-predict-post)
 - [Testing](#testing)
-- [Issues and Contributions](#issues-and-contributions)
-- [License](#license)
+
 
 ## Overview
 
@@ -72,7 +72,7 @@ curl http://localhost:8000/
 curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a positive sentence."}' http://localhost:8000/predict
 ```
 
-<img src="images/Screenshot_3.png" alt="Alt Text" width="800" height="400">
+<img src="images/API.png" alt="Alt Text" width="800" height="400">
 
 
 
@@ -90,4 +90,4 @@ pytest test/test_main.py
 ```
 Output of unittest
 
-<img src="images/Screenshot_15.png" alt="Alt Text">
+<img src="images/Test.png" alt="Alt Text">
