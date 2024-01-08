@@ -68,8 +68,9 @@ curl http://localhost:8000/
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a positive sentence."}' http://localhost:8000/predict
 ```
-![Alt Text](file:///D:/ML_prijects/SentimentAnalysisModelmaster/Sentiment_Analysis/Sentiment-Analysis/images/Screenshot_2.png)
+![Alt Text](file:///D:/ML_prijects/SentimentAnalysisModelmaster/Sentiment_Analysis/Sentiment-Analysis/images/Screenshot_2.png){: width="300" height="200"}
 
+![Alt Text](file:///D:/ML_prijects/SentimentAnalysisModelmaster/Sentiment_Analysis/Sentiment-Analysis/images/Screenshot_3.png){: width="300" height="200"}
 
 ## Testing
 
@@ -81,4 +82,7 @@ To run the tests, execute the following command in your terminal:
 
 ```bash
 pytest test/test_main.py
+
 ```
+
+![Alt Text](file:///D:/ML_prijects/SentimentAnalysisModelmaster/Sentiment_Analysis/Sentiment-Analysis/images/Screenshot_15.png){: width="300" height="200"}
