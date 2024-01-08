@@ -1,6 +1,9 @@
 # Sentiment Analysis API
 
 This project is a sentiment analysis API that categorizes text data into positive, negative, or neutral sentiments. It is built using [FastAPI](https://fastapi.tiangolo.com/).
+## Video Demonstration
+
+[![Watch the video](images/ezgif-2-20ddcd0875.mp4)
 
 ## Table of Contents
 
@@ -85,5 +88,6 @@ To run the tests, execute the following command in your terminal:
 pytest test/test_main.py
 
 ```
+Output of unittest
 
 <img src="images/Screenshot_15.png" alt="Alt Text">
